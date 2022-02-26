@@ -5,11 +5,9 @@ from twilio.rest import Client
 from twilio.http.http_client import TwilioHttpClient
 
 location_dict = {
-    "name": "{my city}}",
-    "lat": "my lat",
-    "lon": "my lon",
-    "lat": "my lat",
-    "lon": "my lon",
+    "name": "{my city}}", # use your city
+    "lat": "my lat", # use your lat
+    "lon": "my lon", # use your lon
     "country": "US",
     "state": "Alabama"
 }
@@ -39,7 +37,7 @@ if will_rain:
     message = client.messages.create(
         body="It's gonna rain man, get a umbrella.",
         from_='+18456835697',
-        to='+1{my phone number}}'
+        to='+1{my phone number}}' # use your phone number
     )
 
     print(message.status)
