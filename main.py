@@ -6,8 +6,8 @@ from twilio.http.http_client import TwilioHttpClient
 
 location_dict = {
     "name": "{my city}}",
-    "lat": 33.2442813,
-    "lon": -86.8163773,
+    "lat": "my lat",
+    "lon": "my lon",
     "lat": "my lat",
     "lon": "my lon",
     "country": "US",
